@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bekjon's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    
+    <!-- Navbar -->
+    <header class="bg-white shadow-md p-4 flex justify-between items-center fixed w-full top-0 z-10">
+        <h1 class="text-2xl font-bold">Bekjon</h1>
+        <nav>
+            <ul class="flex gap-6">
+                <li><a href="#hero" class="hover:text-blue-500">Home</a></li>
+                <li><a href="#about" class="hover:text-blue-500">About</a></li>
+                <li><a href="#portfolio" class="hover:text-blue-500">Portfolio</a></li>
+                <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero" class="h-screen flex flex-col justify-center items-center text-center bg-gray-200 mt-16">
+        <img src="./b.jpg" alt="Profile Picture" class="rounded-full shadow-lg">
+        <h2 class="text-5xl font-bold mt-4">I'm Bekjon</h2>
+        <p class="text-lg text-gray-600 mt-2">Front-end Developer & Designer</p>
+        <button class="mt-4 bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">Hire Me</button>
+    </section>
+    
+    <section id="about" class="py-20 px-6 text-center bg-white">
+        <h2 class="text-4xl font-bold">About Me</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto mt-4">I am a passionate front-end developer who loves to create beautiful and functional websites using modern technologies.</p>
+    </section>
+    
+    <section id="portfolio" class="py-20 px-6 bg-gray-100">
+        <h2 class="text-4xl font-bold text-center">My Work</h2>
+        <div class="grid md:grid-cols-3 gap-6 mt-6 max-w-5xl mx-auto">
+            <div class="bg-white shadow-md p-4 rounded-lg">
+                <img src="https://via.placeholder.com/300" alt="Project" class="rounded-md">
+                <h3 class="text-xl font-semibold mt-2">Project 1</h3>
+                <p class="text-gray-600">Awesome project description.</p>
+            </div>
+            <div class="bg-white shadow-md p-4 rounded-lg">
+                <img src="https://via.placeholder.com/300" alt="Project" class="rounded-md">
+                <h3 class="text-xl font-semibold mt-2">Project 2</h3>
+                <p class="text-gray-600">Amazing work showcase.</p>
+            </div>
+            <div class="bg-white shadow-md p-4 rounded-lg">
+                <img src="https://via.placeholder.com/300" alt="Project" class="rounded-md">
+                <h3 class="text-xl font-semibold mt-2">Project 3</h3>
+                <p class="text-gray-600">Creative project details.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-200 text-center">
+        <h2 class="text-4xl font-bold">Let's Work Together</h2>
+        <p class="text-gray-600">Reach out to me for collaborations!</p>
+        <button class="mt-4 bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">Contact Me</button>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-4 mt-6">
+        &copy; 2025 Bekjon's Portfolio. All rights reserved.
+    </footer>
+    
+</body>
+</html>
